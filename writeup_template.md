@@ -15,7 +15,6 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
 
 ---
 
@@ -23,7 +22,12 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps:
+
+[1) Getting black and white version by Grayscaling:]: ./examples/grayscale.jpg "Grayscale"
+
+[2) Applying a Gaussian blur and the Canny Edge detection to detect all the edges in the image]: .examples/gaussianblur:cannyedge.png
+
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
